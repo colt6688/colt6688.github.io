@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="ee4459147c2b4951858b08b17d33674a" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_ee4459147c2b4951858b08b17d33674a = echarts.init(
+            document.getElementById('ee4459147c2b4951858b08b17d33674a'), 'white', {renderer: 'canvas'});
+        var option_ee4459147c2b4951858b08b17d33674a = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "\u5927\u5bb6",
+                        "value": 165
+                    },
+                    {
+                        "name": "\u65f6\u5019",
+                        "value": 145
+                    },
+                    {
+                        "name": "\u4e1c\u897f",
+                        "value": 126
+                    },
+                    {
+                        "name": "\u62c9\u8f66",
+                        "value": 108
+                    },
+                    {
+                        "name": "\u592a\u592a",
+                        "value": 102
+                    },
+                    {
+                        "name": "\u5730\u65b9",
+                        "value": 95
+                    },
+                    {
+                        "name": "\u8001\u5934\u5b50",
+                        "value": 89
+                    },
+                    {
+                        "name": "\u9a86\u9a7c",
+                        "value": 88
+                    },
+                    {
+                        "name": "\u8f66\u592b",
+                        "value": 86
+                    },
+                    {
+                        "name": "\u7bf7\u5b50",
+                        "value": 86
+                    }
+                ],
+                "radius": [
+                    "40%",
+                    "75%"
+                ],
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "formatter": "{b}: {c}"
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "\u4eba\u540d",
+                "\u5730\u540d",
+                "\u5f62\u5bb9\u8bcd",
+                "\u52a8\u8bcd",
+                "\u540d\u8bcd"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u864e\u599e",
+                        "\u7965\u5b50",
+                        "\u66f9\u5148\u751f",
+                        "\u5c0f\u798f\u5b50",
+                        "\u5218\u56db\u7237",
+                        "\u9ad8\u5988",
+                        "\u8001\u7a0b",
+                        "\u962e\u660e",
+                        "\u4e8c\u5f3a\u5b50",
+                        "\u51af\u5148\u751f"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "left": "2%",
+                    "top": "15%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u864e\u599e",
+                            "value": 182
+                        },
+                        {
+                            "name": "\u7965\u5b50",
+                            "value": 141
+                        },
+                        {
+                            "name": "\u66f9\u5148\u751f",
+                            "value": 110
+                        },
+                        {
+                            "name": "\u5c0f\u798f\u5b50",
+                            "value": 96
+                        },
+                        {
+                            "name": "\u5218\u56db\u7237",
+                            "value": 95
+                        },
+                        {
+                            "name": "\u9ad8\u5988",
+                            "value": 51
+                        },
+                        {
+                            "name": "\u8001\u7a0b",
+                            "value": 50
+                        },
+                        {
+                            "name": "\u962e\u660e",
+                            "value": 40
+                        },
+                        {
+                            "name": "\u4e8c\u5f3a\u5b50",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u51af\u5148\u751f",
+                            "value": 12
+                        }
+                    ],
+                    "radius": [
+                        "40%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "formatter": "{b}: {c}"
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u9a86\u9a7c\u7965\u5b50\u4eba\u540d\u524d\u5341\u8bcd\u9891",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5317\u5e73",
+                        "\u5929\u6865",
+                        "\u897f\u5c71",
+                        "\u5929\u6d25",
+                        "\u897f\u57ce",
+                        "\u6d77\u7538",
+                        "\u4e0a\u6d77",
+                        "\u897f\u5b89\u95e8",
+                        "\u524d\u95e8",
+                        "\u57ce\u6839"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "left": "2%",
+                    "top": "15%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5317\u5e73",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u5929\u6865",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u897f\u5c71",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u897f\u57ce",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u6d77\u7538",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u897f\u5b89\u95e8",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u524d\u95e8",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u57ce\u6839",
+                            "value": 5
+                        }
+                    ],
+                    "radius": [
+                        "40%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "formatter": "{b}: {c}"
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u9a86\u9a7c\u7965\u5b50\u5730\u540d\u524d\u5341\u8bcd\u9891",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u75db\u5feb",
+                        "\u5bb9\u6613",
+                        "\u5389\u5bb3",
+                        "\u4fbf\u5b9c",
+                        "\u4e0d\u9519",
+                        "\u70ed\u95f9",
+                        "\u5e74\u8f7b",
+                        "\u4e0d\u5927",
+                        "\u7740\u6025",
+                        "\u8212\u670d"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "left": "2%",
+                    "top": "15%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u75db\u5feb",
+                            "value": 51
+                        },
+                        {
+                            "name": "\u5bb9\u6613",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u5389\u5bb3",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u4fbf\u5b9c",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u4e0d\u9519",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u70ed\u95f9",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u5e74\u8f7b",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u4e0d\u5927",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u7740\u6025",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u8212\u670d",
+                            "value": 17
+                        }
+                    ],
+                    "radius": [
+                        "40%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "formatter": "{b}: {c}"
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u9a86\u9a7c\u7965\u5b50\u5f62\u5bb9\u8bcd\u524d\u5341\u8bcd\u9891",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6ca1\u6709",
+                        "\u4e0d\u80fd",
+                        "\u8d77\u6765",
+                        "\u77e5\u9053",
+                        "\u89c9\u5f97",
+                        "\u51fa\u6765",
+                        "\u770b\u7740",
+                        "\u56de\u6765",
+                        "\u51fa\u53bb",
+                        "\u770b\u89c1"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "left": "2%",
+                    "top": "15%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u6ca1\u6709",
+                            "value": 318
+                        },
+                        {
+                            "name": "\u4e0d\u80fd",
+                            "value": 189
+                        },
+                        {
+                            "name": "\u8d77\u6765",
+                            "value": 167
+                        },
+                        {
+                            "name": "\u77e5\u9053",
+                            "value": 158
+                        },
+                        {
+                            "name": "\u89c9\u5f97",
+                            "value": 133
+                        },
+                        {
+                            "name": "\u51fa\u6765",
+                            "value": 120
+                        },
+                        {
+                            "name": "\u770b\u7740",
+                            "value": 92
+                        },
+                        {
+                            "name": "\u56de\u6765",
+                            "value": 77
+                        },
+                        {
+                            "name": "\u51fa\u53bb",
+                            "value": 77
+                        },
+                        {
+                            "name": "\u770b\u89c1",
+                            "value": 74
+                        }
+                    ],
+                    "radius": [
+                        "40%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "formatter": "{b}: {c}"
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u9a86\u9a7c\u7965\u5b50\u52a8\u8bcd\u524d\u5341\u8bcd\u9891",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5927\u5bb6",
+                        "\u65f6\u5019",
+                        "\u4e1c\u897f",
+                        "\u62c9\u8f66",
+                        "\u592a\u592a",
+                        "\u5730\u65b9",
+                        "\u8001\u5934\u5b50",
+                        "\u9a86\u9a7c",
+                        "\u8f66\u592b",
+                        "\u7bf7\u5b50"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "left": "2%",
+                    "top": "15%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u5927\u5bb6",
+                            "value": 165
+                        },
+                        {
+                            "name": "\u65f6\u5019",
+                            "value": 145
+                        },
+                        {
+                            "name": "\u4e1c\u897f",
+                            "value": 126
+                        },
+                        {
+                            "name": "\u62c9\u8f66",
+                            "value": 108
+                        },
+                        {
+                            "name": "\u592a\u592a",
+                            "value": 102
+                        },
+                        {
+                            "name": "\u5730\u65b9",
+                            "value": 95
+                        },
+                        {
+                            "name": "\u8001\u5934\u5b50",
+                            "value": 89
+                        },
+                        {
+                            "name": "\u9a86\u9a7c",
+                            "value": 88
+                        },
+                        {
+                            "name": "\u8f66\u592b",
+                            "value": 86
+                        },
+                        {
+                            "name": "\u7bf7\u5b50",
+                            "value": 86
+                        }
+                    ],
+                    "radius": [
+                        "40%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "formatter": "{b}: {c}"
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u9a86\u9a7c\u7965\u5b50\u540d\u8bcd\u524d\u5341\u8bcd\u9891",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_ee4459147c2b4951858b08b17d33674a.setOption(option_ee4459147c2b4951858b08b17d33674a);
+    </script>
+</body>
+</html>
